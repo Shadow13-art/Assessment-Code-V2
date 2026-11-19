@@ -8,36 +8,35 @@ INDEX/HOME:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>About Us</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://w3schools.com">
-  <style>
-    /* This puts my text on the left while my picture will be on the right. */
-.bottom-split {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 32px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  flex-wrap: wrap;
-}
+    <title>Technology News</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://w3schools.com">
+    <style>
+        /*This puts my text on the left while my picture will be on the right*/
+        .bottom-split {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 32px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            flex-wrap: wrap;
+        }
+        .left-text {
+            flex: 1;
+            min-width: 280px;
+        }
 
-.left-text {
-  flex: 1;
-  min-width: 280px;
-}
-
-.right-img {
-  width: 400px;
-  max-width: 100%;
-  border-radius: 8px;
-}
-  html, body {
-  background-color: lightgrey;
-  color: #3B0764;
-}
+        .right-img {
+            width: 400px;
+            max-width: 100%px;
+            border-radius : 8px;
+        }
+        html, body {
+            background-color: lightgrey;
+            color: #3B0764;
+        }
 
     /* How to style the purple boxes. */
     .purple-box {
@@ -46,8 +45,7 @@ INDEX/HOME:
       border-radius: 8px;
       padding: 16px;
     }
-
-    /* My images inside my boxes. */
+        /* My images inside my boxes. */
     .card-img {
       width: 100%;
       height: 150px;
@@ -69,8 +67,9 @@ INDEX/HOME:
 </head>
 <body>
 
-  
-  <nav class="w3-bar w3-black">
+    </style>
+</head>
+<nav class="w3-bar w3-black">
     <a href="index.html" class="w3-button w3-bar-item">Home.</a>
     <a href="about.html" class="w3-button w3-bar-item">About Us.</a>
     <a href="contact.html" class="w3-button w3-bar-item">Contact</a>
@@ -129,10 +128,7 @@ INDEX/HOME:
 </html>
 
 
-
-
 ABOUT US:
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -286,3 +282,80 @@ html, body {
     </div>
 </body>
 </html>
+
+
+CONTACT US:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html> 
+
+<head> 
+
+    <title>COntact Us</title> 
+</head> 
+
+<body> 
+
+  <nav class="w3-bar w3-black">
+    <a href="index.html" class="w3-button w3-bar-item">Home.</a>
+    <a href="about.html" class="w3-button w3-bar-item">About Us.</a>
+    <a href="contact.html" class="w3-button w3-bar-item">Contact</a>
+  </nav>
+
+  <h1>Contact Us.</h1> 
+
+       <h2>Have any concerns or feedback you'd like to give?</h2>
+<p>Feel free to use the form below to share your thoughts, concerns and ideas about our website! </p>
+
+
+
+<form action="mailto:recipient@example.com?subject=Contact" method="post" enctype="text/plain"> 
+<label for="firstnm">First name:</label><br> 
+<input type="text" name="firstname" id="firstnm"><br> 
+<label for="lastnm">Last name:</label><br> 
+<input type="text" name="lastname" id="lastnm"><br> 
+<label for="Email">Email address:</label><br> 
+<input type="text" name="email" id="Email"><br><br> 
+<input type="submit" value="Send"> 
+
+</form> 
+
+</body> 
+
+</html> 
+
+
+  <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://w3schools.com">
+  
+
+
+  <style>
+html, body {
+  background-color: lightgrey;
+  color: #3B0764;
+}
+
+    /* Styling of purple boxes. */
+    .purple-box {
+      background-color: rgb(110, 5, 151);
+      color: #FFD700;
+      border-radius: 8px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+    }
+    html {
+      background-color: lightgrey;
+    }
+</style>
+
+<div class="bottom-split">
+  
+
+  <img src="https://images.unsplash.com/photo-1768839720467-90cc32edeb26?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="World Map" class="right-img">
+  
